@@ -1,0 +1,46 @@
+
+  #side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #046A38;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  #side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F5F5F5;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #side-nav a:hover {
+    color: #6e6b6b;
+  }
+  
+  #side-nav #close-button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #sidebar-drawer-img {
+    position: absolute;
+    top: 0;
+    width: 5%;
+    height: 5%;
+  }
+  
+  @media screen and (max-height: 450px) {
+    #side-nav {padding-top: 15px;}
+    #side-nav a {font-size: 18px;}
+  }
